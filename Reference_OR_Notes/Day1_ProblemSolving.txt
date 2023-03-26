@@ -1,0 +1,72 @@
+Problem Solving Video - KT by Hema
+-------------------------------------------------------------
+1. Did we understand the problem
+	if yes 
+	if no
+
+2. test data
+	[positive | Edge | Negative]
+
+3. Do we have solution to the problem
+	if yes
+	if no
+	- Create Trust
+	- Interact with panel throughout the session
+	- Multiple soution known?
+	- Ask for Hints
+
+4. Ask for the Hints
+	if sol known OK
+	else appologise and ask for another question
+
+5. Alternate Solution
+	-Brute sol
+
+6. If more than one sol known then what we have to do
+	- explain the solution to the panel and express the best solution at the end with justification
+
+7. start with Psedocode
+	- basic english [BDD - Beha Dr Dev]
+
+8.later implement the code
+	- documentary of the steps is imp
+
+9. test with diff data
+
+10.debug & Fix
+---------------------------------------------------------------
+Sug: Please have notepad & eclipse(or any other IDE) side by side. So we shall start writing the code in the notepad and verify the same in IDE.
+---------------------------------------------------------------
+Sample Problem Solving implementing the 10 steps - by Lokesh
+---------------------------------------------------------------
+"greatest num given" - Example Problem
+
+1. "In the set of array provided please identify the greatest num and return the index of it" - Question got clarified/ reframed from the panel.
+	- Need Array example from panel: [1, 5, 12, 6, 9] example provided from the panel.
+	- constraints: shall we use any methods (sorting) [Panel rejects]
+
+2. Test Data:
+	[Positive | Edge | Negative]
+	- sample Test data provided by panel, we have only positive.
+	- Need not to raise comment for creating more sample test data from our end to have edge & negative.
+
+3. Do I know how to solve the problem.
+	- Brute force: 
+	- Not showing the eagerness to the panel.
+	- taking 15 sec and then saying will try to solve it.
+	- Thinking of multiple ways to solve it.
+	- If we are not able to think of an solution, asking for the hint from the panel.
+
+4. Asking Hint:
+	- Politely ask for the hint
+
+
+
+
+
+
+
+
+
+
+
