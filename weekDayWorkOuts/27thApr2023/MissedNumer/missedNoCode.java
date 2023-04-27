@@ -41,5 +41,12 @@ public class missingNumber {
 			}
 		}
 		
+		//Sol - 2
+		int s1=0, s2=0;
+		for(int i=0; i<=n.length; i++) {
+			s1=s1+i;
+			if(i<n.length) s2=s2+n[i];
+		}
+		System.out.println("The missing number is " + (s1-s2));
 	}
 }
