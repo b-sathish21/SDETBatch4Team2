@@ -200,6 +200,74 @@ public class singlyLinkedList {
 		return size;
 	}
 	
+	public int duplicateOccurrence(String data) {
+		/*
+		 * to return number of duplicate of the given data
+		 */
+		int count = 0;
+		Node current = start;
+		if(start == null || start.next == null) return count;
+		else {
+			for(int i=1;i<=size;i++) {
+				if(current.data.equals(data)) count++;
+				current = current.next;
+			}
+		}	
+		return count;
+	}
+	
+	public void removeData(int index) {
+		/*
+		 * removes/ deletes data on given index
+		 */
+		if(start == null || start.next == null) return;		
+
+		if(index == 1) {
+			start = start.next;
+			size--;
+			return;
+		}
+		
+		Node current = start.next; //assign pointer to current
+		Node previous = start; //assign Head node to previous to travel till we find the match of the data
+		for(int i=2; current != null; i++) {//validating pointer is not null
+			if(i == index) {
+				previous.next = current.next; //redirecting the origin point of the current pointer to previous node pointer
+				size--;
+				return;
+			}
+			previous = current; // moving the node
+			current = current.next; // moving the pointer
+		}
+	}
+	
+	public int lastIndexOf(String data) {
+		/*
+		 * To return the index of the last occurrence of the duplicated element
+		 */
+		Node current = start;
+		int index = -1;
+		if(start == null || start.next == null) return index;
+		else {
+			for(int i=1;i<=size;i++) {
+				if(current.data.equals(data)) index = i;
+				current = current.next;
+			}
+		}	
+		return index;
+	}
+	
+	public void addAll(singlyLinkedList list, int index) throws Exception {
+		
+		// creating object for the node class created and calling here
+		Node list_current = list.start;
+		for(int i=0; i<list.size;i++) {
+			insert(index, list_current.data);
+			index++;
+			list_current = list_current.next;
+		}
+	}
+	
 	//To print the list after converting to String
 	public String toStr() {
 		StringBuffer sb = new StringBuffer();
