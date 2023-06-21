@@ -1,4 +1,4 @@
-package weekDayAssignment;
+package mandatoryHomeWork.selenium;
 
 import static org.testng.Assert.assertTrue;
 
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class createLeadLeafTaps {
+public class LeafTaps_CreateLead {
 	
 	//Locators
 	public static By usrNm_txtBx = By.id("username");

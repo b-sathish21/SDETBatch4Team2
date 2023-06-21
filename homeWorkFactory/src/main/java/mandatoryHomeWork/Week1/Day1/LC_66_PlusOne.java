@@ -1,10 +1,10 @@
-package weekWorkOuts;
+package mandatoryHomeWork.week1.day1;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 
-public class plusOne {
+public class LC_66_PlusOne {
 	
 
 	@Test

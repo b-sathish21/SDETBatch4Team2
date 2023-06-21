@@ -1,10 +1,10 @@
-package weekWorkOuts;
+package mandatoryHomeWork.week1.day2;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 
-public class firstNlastOccRemove {
+public class RemoveFirstNLastOccurenceCode {
 
 	@Test
 	public void ex1() {

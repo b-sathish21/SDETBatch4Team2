@@ -1,8 +1,8 @@
-package weekWorkOuts;
+package mandatoryHomeWork.week1.day2;
 
 import org.junit.Test;
 
-public class addDigitsLeetCode {
+public class LC_258_AddDigits {
 	
 	@Test
 	public void ex1() {

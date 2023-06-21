@@ -1,6 +1,6 @@
-package weekWorkOuts;
+package mandatoryHomeWork.week1.day2;
 
-public class diamondPatern {
+public class diamondPatternCode {
 	
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub

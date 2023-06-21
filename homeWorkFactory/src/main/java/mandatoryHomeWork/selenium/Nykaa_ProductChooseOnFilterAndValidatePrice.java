@@ -1,4 +1,4 @@
-package weekDayAssignment;
+package mandatoryHomeWork.selenium;
 
 import static org.testng.Assert.assertTrue;
 
@@ -14,7 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class nykaaautomation {
+public class Nykaa_ProductChooseOnFilterAndValidatePrice {
 	
 	//Locators
 	public static By brand_top_ribon_droperMenu = By.xpath("//div[@id = 'brand_arrowUp']//parent::li/a");

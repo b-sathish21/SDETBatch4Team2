@@ -1,4 +1,4 @@
-package weekDayAssignment;
+package mandatoryHomeWork.selenium;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -18,7 +18,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class assignment29May2023 {
+public class JIRA_DrgDrp_CrtSubTsk_DeletePrnt_Validate {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

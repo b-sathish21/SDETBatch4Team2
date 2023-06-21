@@ -1,4 +1,4 @@
-package check;
+package mandatoryHomeWork.selenium;
 
 import static org.testng.Assert.assertTrue;
 
@@ -11,14 +11,13 @@ import java.util.Random;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class classAssiJIRA {
+public class JIRA_CreateTask_CreateBUG {
 		//Data
 		public static String[] issue_Type = {"Story", "Task", "Bug", "Epic"};
 		public static String[] assignee = {"Sathish", "Devi", "Hema", "Karupa", "Krishna"};

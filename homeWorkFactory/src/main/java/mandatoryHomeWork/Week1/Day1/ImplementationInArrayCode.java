@@ -1,10 +1,10 @@
-package weekWorkOuts;
+package mandatoryHomeWork.week1.day1;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 
-public class immplementArray {
+public class ImplementationInArrayCode {
 
 	/**
 	   Implement below methods using array

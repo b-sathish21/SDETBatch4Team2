@@ -1,4 +1,4 @@
-package weekDayAssignment;
+package mandatoryHomeWork.selenium;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class flightFareCheck {
+public class MakeMyTrip_ValidatePriceForReturnTrip {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

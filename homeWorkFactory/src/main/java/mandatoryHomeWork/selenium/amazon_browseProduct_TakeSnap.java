@@ -1,4 +1,4 @@
-package weekDayAssignment;
+package mandatoryHomeWork.selenium;
 
 import static org.testng.Assert.assertTrue;
 
